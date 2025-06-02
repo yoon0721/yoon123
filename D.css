@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #f0f1f3; opacity: 10px;
+  margin-top: 150px;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  justify-items: center;
+}
+
+.login-div{
+  justify-items: center;
+  
+}
+.sigUp-div{
+  justify-items: center;
+  
+}
+input {
+  display: block;
+  width: 260px;
+  margin-bottom: 10px;
+  padding: 9px;
+  border-radius: 8px;
+  transition:  0.5s;
+
+}
+
+button {
+  display: flex;
+  padding: 6px;
+  margin-bottom: 11px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 20px;
+  transition:  0.5s;
+}
+button:hover{
+  background: #e81616;
+  transition:  0.1s;
+}
+
+img{
+  display: flex;
+  height: 200px;
+}
+
